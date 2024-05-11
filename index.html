@@ -1,117 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
-</head>
-<header>
-    <div class="header1">
-    <div class="h2"><h2>Ed.travel</h2></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Document</title>
+    </head>
+    <header>
+        <div class="header1">
+            <div class="h2"><h2>Ed.travel</h2></div>
 
-    <button>vuelos
-        <img src="icons/bxs-plane-alt.svg" alt="">
-    </button>
+            <div class="buttons">
+            <button>vuelos
+                <div class="logo1"><img src="icons/bxs-plane-alt.svg" alt="plane"></div>
+            </button>
 
-    <button>alquiler de carros
-        <img src="icons/bx-car.svg" alt="">
-    </button>
+            <button>alquiler de carros
+                <div class="logo2"><img  src="icons/bx-car.svg" alt="car"></div>
+            </button>
 
-    <button>bibrerias
-        <img src="icons/bx-book.svg" alt="">
-    </button>
+            <button>bibrerias
+                <div class="logo3"><img  src="icons/bx-book.svg" alt="book"></div>
+            </button>
+            </div> 
 
-    </div>
-    <img class="img-header" src="img/travel.jpg" alt="">
+        </div>
+        <img class="img-header" src="img/travel.jpg" alt="">
+    </header>
     
-</header>
-<body>
-    <div class="contenerdo">
-        <div class="soon1">
-       <select name="ciudad" id="">
-        <option value="">ciudad</option>
-        <option value="">Armenia</option>
-        <option value="">Barranquilla</option>
-        <option value="">Bogóta</option>
-        <option value="">Cartagena</option>
-        <option value="">San andrés</option>
-        <option value="">Santamarta</option>
-        <option value="">Cali</option>
-        <option value="">Bucaramanga</option>
-        <option value="">La guajira</option>
-        <option value="">Manizales</option>
-        <option value="">Pasto</option>
-        <option value="">Pereira</option>
-        <option value="">Popayán</option>
-       </select>
-            <label for="salida">Dia de salida</label>
-            <input type="date"name="salida">
-            <label for="regreso">Dia de regreso</label>
-            <input type="date"name="regreso"> 
-            <input type="number"name="cantidad" placeholder="cantidad de personas">
-    </div>
-        <div class="cities">
+    <body>
+        <div class="contenerdo">
+            <div class="soon1">
+                <select name="ciudad" id="">
+                    <option value="">ciudad</option>
+                    <option value="">Armenia</option>
+                    <option value="">Barranquilla</option>
+                    <option value="">Bogóta</option>
+                    <option value="">Cartagena</option>
+                    <option value="">San andrés</option>
+                    <option value="">Santamarta</option>
+                    <option value="">Cali</option>
+                    <option value="">Bucaramanga</option>
+                    <option value="">La guajira</option>
+                    <option value="">Manizales</option>
+                    <option value="">Pasto</option>
+                    <option value="">Pereira</option>
+                    <option value="">Popayán</option>
+               </select>
+                <label for="salida">Dia de salida</label>
+                <input type="date"name="salida">
+                <label for="regreso">Dia de regreso</label>
+                <input type="date"name="regreso"> 
+                <input type="number"name="cantidad" placeholder="cantidad de personas">
+            </div>
 
-            <div class="city">
-                <h3>armenia</h3>
-            <img src="img/armenia.jpeg" alt="">
-            </div>
+            <div class="cities">
+
+                <div class="city">
+                    <h3>armenia</h3>
+                <img  src="img/armenia.jpeg" alt="">
+                </div>
+                
+                <div class="city">
+                    <h3>Barranquilla</h3>
+                    <img src="img/barranquilla.jpg" alt="">
+                </div>
             
-            <div class="city">
-                <h3>Barranquilla</h3>
-                <img src="img/barranquilla.jpg" alt="">
-            </div>
-           
-            <div class="city">
-                <h3>Bogóta</h3>
-                <img src="img/bogota.jpg" alt="">
-            </div>
-            <div class="city">
-                <h3>Cartagena</h3>
-                <img src="img/cartagena.webp" alt="">
-            </div>
-            <div class="city">
-                <h3>San andrés</h3>
-                <img src="img/sanAndres.jpg" alt="">
-            </div>
-            <div class="city">
-                <h3>Santamarta</h3>
-                <img src="img/santaMarta.jpg" alt="">
-            </div>
-            <div class="city">
-                <h3>Cali</h3>
-                <img src="img/Cali-de-Noche.webp" alt="">
-            </div>
-            <div class="city">
-                <h3>Bucaramanga</h3>
-                <img src="img/bucaramanga.jpg" alt="">
-            </div>
-            <div class="city">
-                <h3>la guajira</h3>
-                <img src="img/guajira.jpg" alt="">
-            </div>
-            <div class="city">
-                <h3>Manizales</h3>
-                <img src="img/Manizales-1-1.jpg" alt="">
-            </div>
-            
-            <div class="city">
-                <h3>Pasto</h3>
-                <img src="img/pasto.webp" alt="">
-            </div>
-            <div class="city">
-                <h3>Pereira</h3>
-                <img src="img/Pereira-Colombia.jpg" alt="">
-            </div>
-            <div class="city">
-                <h3>Popayán</h3>
-                <img src="img/popayan.jfif" alt="">
+                <div class="city">
+                    <h3>Bogóta</h3>
+                    <img src="img/bogota.jpg" alt="">
+                </div>
+                <div class="city">
+                    <h3>Cartagena</h3>
+                    <img src="img/cartagena.webp" alt="">
+                </div>
+                <div class="city">
+                    <h3>San andrés</h3>
+                    <img src="img/sanAndres.jpg" alt="">
+                </div>
+                <div class="city">
+                    <h3>Santamarta</h3>
+                    <img src="img/santaMarta.jpg" alt="">
+                </div>
+                <div class="city">
+                    <h3>Cali</h3>
+                    <img src="img/Cali-de-Noche.webp" alt="">
+                </div>
+                <div class="city">
+                    <h3>Bucaramanga</h3>
+                    <img src="img/bucaramanga.jpg" alt="">
+                </div>
+                <div class="city">
+                    <h3>la guajira</h3>
+                    <img src="img/guajira.jpg" alt="">
+                </div>
+                <div class="city">
+                    <h3>Manizales</h3>
+                    <img src="img/Manizales-1-1.jpg" alt="">
+                </div>
+                
+                <div class="city">
+                    <h3>Pasto</h3>
+                    <img src="img/pasto.webp" alt="">
+                </div>
+                <div class="city">
+                    <h3>Pereira</h3>
+                    <img src="img/Pereira-Colombia.jpg" alt="">
+                </div>
+                <div class="city">
+                    <h3>Popayán</h3>
+                    <img src="img/popayan.jfif" alt="">
+                </div>
             </div>
         </div>
-    </div>
-   
-</body>
+    </body>
     <footer>
 
         
