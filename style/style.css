@@ -26,16 +26,25 @@
     float: left;
   }
   .logo1{
-   width: 50px;
-   margin-right: 10%;
+   position: absolute; 
+   top: 10px; 
+   left: 300px;
+   width: 30px;
+   margin-right: 6%;
   }
   .logo2{
-    width: 50px;
-    margin-right: 10%;
+    position: absolute; 
+    top: 10px; 
+    left: 360px;
+    width: 30px;
+    margin-right: 6%;
   }
   .logo3{
-    width: 50px;
-    margin-right: 10%;
+    position: absolute; 
+    top: 10px; 
+    left: 420px;
+    width: 30px;
+    margin-right: 6%;;
   }
   .soon1{
     width: 100%;
@@ -107,7 +116,7 @@
     color: #FFFFFF; 
     padding: 30px 30px;  
     border-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
     cursor: pointer;
