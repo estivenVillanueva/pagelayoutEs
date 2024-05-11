@@ -12,6 +12,7 @@
   .h2{
     display: flex;
     color: #FFFFFF; 
+    text-shadow: 0 0 10px rgb(97, 126, 255), 0 0 20px rgb(97, 126, 255), 0 0 30px rgb(97, 126, 255), 0 0 40px #596aef; 
   }
   header{
 
@@ -26,8 +27,15 @@
   }
   .logo1{
    width: 50px;
-   height: 100px;
    margin-right: 10%;
+  }
+  .logo2{
+    width: 50px;
+    margin-right: 10%;
+  }
+  .logo3{
+    width: 50px;
+    margin-right: 10%;
   }
   .soon1{
     width: 100%;
@@ -92,20 +100,17 @@
     padding: 6px;
   }
   button{
-    width: 50px;
+    width: 10px;
     height: auto;
     align-self:flex-end;
     background-color: #027bfd;
     color: #FFFFFF; 
-    padding: -30px -10px;  
+    padding: 30px 30px;  
     border-color: #FFFFFF;
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
     cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    display: inline-block
   } 
  
 
