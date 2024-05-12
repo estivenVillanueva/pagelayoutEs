@@ -34,15 +34,18 @@
    margin-right: 5%;
    margin-top: -0.6%;
    float: right;
+   filter: invert(100%);
   }
   .logo2{
     position: absolute; 
     top: 10px; 
-    left: 385px;
+    left: 384px;
     width: 17px;
     margin-right: 6%;
     margin-top: -0.6%;
     float: right;
+    color: #ccc;
+    filter: invert(100%);
   }
   .logo3{
     position: absolute; 
@@ -52,6 +55,7 @@
     margin-right: 6%;;
     margin-top: -0.6%;
     float: right;
+    filter: invert(100%);
   }
   .soon1{
     width: 100%;
@@ -90,6 +94,9 @@
   select{
     align-self:flex-end;
     border-radius: 10px; 
+  }
+  label{
+    color: #ccc;
   }
   body {
     width: 100vw;  
