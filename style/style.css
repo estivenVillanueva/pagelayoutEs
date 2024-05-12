@@ -31,7 +31,7 @@
    top: 10px; 
    left: 300px;
    width: 17px;
-   margin-right: 5%;
+   margin-right: 10%;
    margin-top: -0.6%;
    float: right;
    filter: invert(100%);
@@ -147,16 +147,24 @@
     align-items: center;
   
   }
-  .container{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  .social{
+    align-self:flex-end;
+    padding: 4px 19px;
   }
-  .socialNetwork{
-    max-width: 200px; 
-    height: auto; 
+  .social1{
+    width: 50px; 
+    height: auto;
   }
-
-  
-    
+  .social2{
+    width: 50px; 
+    height: auto;
+  }
+  .social3{
+    width: 50px; 
+    height: auto;
+  }
+  .social4{
+    width: 50px; 
+    height: auto;
+  }
   
