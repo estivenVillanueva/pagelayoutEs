@@ -108,11 +108,6 @@
     flex-direction: column;
     align-items: center;
   }
-  footer{
-    background-color: rgb(4, 55, 122);
-    width: 100%;
-    height: 14rem;
-  }
   .cities{
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +137,25 @@
     cursor: pointer;
     text-decoration: none;
   } 
- 
+  footer{
+    background-color: rgb(4, 55, 122);
+    width: 100%;
+    height: 14rem;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+  
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .socialNetwork{
+    max-width: 200px; 
+    height: auto; 
+  }
 
   
     
