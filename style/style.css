@@ -26,6 +26,7 @@
   .header1{
     margin-left: 20%;
     float: left;
+    font-family:'Times New Roman', Times, serif;
   }
   .logo1{
    position: absolute; 
@@ -91,13 +92,16 @@
     align-self:flex-end;
     border-radius: 15px;
     padding: 0px 0px;
+    font-family:'Times New Roman', Times, serif;
   }
   select{
     align-self:flex-end;
     border-radius: 10px; 
+    font-family:'Times New Roman', Times, serif;
   }
   label{
     color: #ccc;
+    font-family:'Times New Roman', Times, serif;
   }
   body {
     width: 100vw;  
